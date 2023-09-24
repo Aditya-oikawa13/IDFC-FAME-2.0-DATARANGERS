@@ -1,0 +1,31 @@
+1. dropping branch code and birth year columns ------> no value added
+2. dropping nominee income columns -----> many null values
+3. filling Max_Perc_Def_Chg_Pending [21078], Max_Ratio_OC_Pending_POS [72646] with zero -------> assumption and common sense
+4. filling all other columns to zero -------> unable to find a better way to deal yet
+5. changing target values from "yes" and "no" to 0 and 1 ------> for more concrete classification
+6. scaling using minmaxscaler or standard scaler -------->  for better results
+7. using K-fold to find accuracy --------> raw method applied need to be improved
+8. splitting data -------> to make sure of our model efficiency
+9. defining class weights for our logistic model -------> to make sure 1's are being considered thoroughly 
+10. confusion matrix study and optimization --------> for precision
+11. classification report study and optimization ---------> for recall particularly senstivity
+12. oversampling -------> for making each sample size equal
+13. Ensembling
+14. regularization
+
+
+
+
+
+
+one hot encoding 
+filling in a better way
+testing different models
+removing outliers from each numerical columns
+plotting roc and finding auc
+group kfold for branches
+grid search cv
+in certain columns 1's are prevailing when columns are 0.0, 0.5, 0.25, 0.33, 0.75, 1.0
+
+
+
